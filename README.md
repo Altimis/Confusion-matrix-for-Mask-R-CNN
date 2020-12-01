@@ -4,6 +4,6 @@ This repo contains a solution to extract the True Posives, False Positives and F
 
 Here is an example of plotting a confusion matrix for 11 classes and the background (BG) 
 
-![alt text](https://github.com/Altimis/Confusion-matrix-for-Matterport-implementation-of-Mask-R-CNN/blob/master/cmatrix_example.png?raw=true)
+![alt text](https://github.com/Altimis/Confusion-matrix-for-Matterport-implementation-of-Mask-R-CNN/blob/master/confm.png?raw=true)
 
 The vertical axis represent the ground-truth classes and the horizontal axis represent the predicted classes. BG class is the background classe. It is not taken into account in the calculation of the mAP. 
