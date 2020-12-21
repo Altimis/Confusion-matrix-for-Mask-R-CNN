@@ -89,7 +89,7 @@ def gt_pred_lists(gt_class_ids, gt_bboxes, pred_class_ids, pred_bboxes, iou_tres
 
     """
 
-    #dict containing the state of each gt and predicted class (0 : not associated to any other class, 1 : associated to a classe)
+    #dict containing the state of each gt and predicted class (0 : not associated to any other class, 1 : associated to a class)
     gt_class_ids_ = {'state' : [0*i for i in range(len(gt_class_ids))], "gt_class_ids":list(gt_class_ids)}
     pred_class_ids_ = {'state' : [0*i for i in range(len(pred_class_ids))], "pred_class_ids":list(pred_class_ids)}
 
