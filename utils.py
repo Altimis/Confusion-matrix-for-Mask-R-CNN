@@ -342,8 +342,8 @@ def plot_confusion_matrix_from_data(y_test, predictions, columns=None, annot=Tru
     fn=[0]*num_classes
     tp=[0]*num_classes
     for i in range(confm.shape[0]):
-        fp[i]+=np.sum(confm[i])-np.diag(confm)[i]
-        fn[i]+=np.sum(np.transpose(confm)[i])-np.diag(confm)[i]
+        fn[i]+=np.sum(confm[i])-np.diag(confm)[i]
+        fp[i]+=np.sum(np.transpose(confm)[i])-np.diag(confm)[i]
         for j in range(confm.shape[1]):
             if i==j:
                 tp[i]+=confm[i][j]
